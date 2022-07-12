@@ -1,4 +1,4 @@
-# Basic Level 2 Assignment
+# JavaScript Quiz (Basic Level 2)
 
 ## Theory
 
