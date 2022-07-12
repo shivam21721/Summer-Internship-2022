@@ -1,4 +1,4 @@
-# Quiz-1
+# JavaScript Quiz (Basic Level 1)
 
 ## Theory
 
