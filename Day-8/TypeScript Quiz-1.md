@@ -1,6 +1,6 @@
-#TypeScript Quiz (Basic Level-1)
+# TypeScript Quiz (Basic Level-1)
 
-##Theory
+## Theory
 1. ### What are the basic data types in TypeScript?
 >The basic data types in TypeScript are - 
 >* **number** : It is used to represent both Integer as well as Floating-Point numbers
