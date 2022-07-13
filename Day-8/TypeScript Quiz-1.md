@@ -42,7 +42,7 @@ console.log(numVar);
 4. ### What are the possible ways to define typing for functions.
 >In TypeScript, there are multiple ways for declaring the type of a function<br>
 
->i. Method Signatures : The method signature syntax is probably the most straightforward to use. When defining an object type, its methods can easily be described by providing signatures as follows:
+>i. **Method Signatures** : The method signature syntax is probably the most straightforward to use. When defining an object type, its methods can easily be described by providing signatures as follows:
 
 ```ts
     interface Date {
@@ -51,7 +51,7 @@ console.log(numVar);
   
     }
 ```
->ii. Function Type Literals : Function type literals are another way to declare the type of a function. They're typically used in the signature of a higher-order function, that is, a function which accepts functions as parameters or which returns a function:
+>ii. **Function Type Literals** : Function type literals are another way to declare the type of a function. They're typically used in the signature of a higher-order function, that is, a function which accepts functions as parameters or which returns a function:
 
 interface Array<T
 
@@ -61,7 +61,7 @@ interface Array<T
   // ...
     } 
 ```
->iii. Object Type Literals with Call or Construct Signatures : In JavaScript, functions are nothing but special objects than can be called. This fact is reflected in the syntax of object type literals: they describe the shape of an object, which also happens to have a call signature:
+>iii. **Object Type Literals with Call or Construct Signatures** : In JavaScript, functions are nothing but special objects than can be called. This fact is reflected in the syntax of object type literals: they describe the shape of an object, which also happens to have a call signature:
 
 
 
