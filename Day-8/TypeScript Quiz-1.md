@@ -122,17 +122,17 @@ function add(name: string, description: string): number {
   });
 }
 
-function remove(index: number): Entry[] {
+function remove(index: number): Student[] {
   return todos.splice(index, 1);
 }
 
 function list(): void {
-  todos.forEach(function (todo: Entry, index: number) {
+  todos.forEach(function (todo: Student, index: number) {
     console.log(index + " - " + todo.name);
   });
 }
 
-function update(index: number, name: string, description: string): Entry {
+function update(index: number, name: string, description: string): Student {
   todos[index].name = name;
   todos[index].description = description;
   return todos[index];
