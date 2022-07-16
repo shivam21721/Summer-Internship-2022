@@ -54,10 +54,7 @@ export const createUser = async (req: Request, res: Response): Promise<void> => 
 }
 
 export const updateUser = async (req: Request, res: Response): Promise<void> => {
-	if(Object.keys(req.query).length === 0) {
-		res.redirect('/users/all')
-	}
-	else {
+	
 		const currentEmail: any = req.query.email
 		const updatedEmail: string = req.body.email
 		
@@ -77,7 +74,7 @@ export const updateUser = async (req: Request, res: Response): Promise<void> => 
 				}
 			})
 		})
-	}
+	
 }
 
 export const deleteUser = async (req: Request, res: Response): Promise<void> => {
