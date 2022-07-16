@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Technical Documentation</title>
+</head>
+<body>
+    <div class="title">Data Structure Tutorial by Shivam Todwal</div>
+    <div class="container">
+
+        <!-- Navbar section -->
+        <div class="navbar">
+            <h1 class="nav-title">Data Structure</h1>
+            <hr>
+            <a href="#Intro" class="nav-item">
+                Introduction
+            </a>
+            <hr>
+            <a href="#Terminology" class="nav-item">
+                Basic Terminology
+            </a>
+            <hr>
+            <a href="#Need" class="nav-item">
+                Need of Data Structures
+            </a>
+            <hr>
+            <a href="#Advantages" class="nav-item">
+                Advantages of Data Structures
+            </a>
+            <hr>
+            <a href="#Classification" class="nav-item">
+                Data Structure Classification
+            </a>
+            <hr>
+            <a href="#Operations" class="nav-item">
+                Operations on data structure
+            </a>
+            <hr>
+        </div>
+        <!-- Navbar section End -->
+
+        <!-- About section -->
+        <div class="about">
+            
+            <h1 class="h1">Data Structure</h1>
+            <hr />
+
+            <!-- Introduction -->
+            <h2 class="heading" id="Intro">Introduction</h2>
+
+            <p>Data Structure can be defined as the group of data elements which provides an efficient way of storing and organising data in the computer so that it can be used efficiently. Some examples of Data Structures are arrays, Linked List, Stack, Queue, etc. Data Structures are widely used in almost every aspect of Computer Science i.e. Operating System, Compiler Design, Artifical intelligence, Graphics and many more.</p>
+
+            <!-- Terminologies -->
+            <h3 class="heading" id="Terminology">Basic Terminology</h3>
+
+            <p> Data structures are the building blocks of any program or the software. Choosing the appropriate data structure for a program is the most difficult task for a programmer. Following terminology is used as far as data structures are concerned.</p>
+
+            <p><strong>Data:</strong> Data can be defined as an elementary value or the collection of values, for example, student's name and its id are the data about the student.</p>
+
+            <p><strong>Group Items:</strong> Data items which have subordinate data items are called Group item, for example, name of a student can have first name and the last name.</p>
+
+            <p><strong>Record:</strong> Record can be defined as the collection of various data items, for example, if we talk about the student entity, then its name, address, course and marks can be grouped together to form the record for the student.</p>
+
+            <p><strong>File:</strong> A File is a collection of various records of one type of entity, for example, if there are 60 employees in the class, then there will be 20 records in the related file where each record contains the data about each employee.</p>
+
+            <p><strong>Attribute and Entity:</strong> An entity represents the class of certain objects. it contains various attributes. Each attribute represents the particular property of that entity.</p>
+
+            <p><strong>Field:</strong> Field is a single elementary unit of information representing the attribute of an entity.</p>
+
+            <!-- Need -->
+            <h3 class="heading" id="Need">Need of Data Structures</h3>
+
+            <p>As applications are getting complexed and amount of data is increasing day by day, there may arrise the following problems:</p>
+
+            <p><strong>Processor speed:</strong> To handle very large amout of data, high speed processing is required, but as the data is growing day by day to the billions of files per entity, processor may fail to deal with that much amount of data.</p>
+
+            <p><strong>Data Search:</strong> Consider an inventory size of 106 items in a store, If our application needs to search for a particular item, it needs to traverse 106 items every time, results in slowing down the search process. </p>
+
+            <p><strong>Multiple requests:</strong> If thousands of users are searching the data simultaneously on a web server, then there are the chances that a very large server can be failed during that process </p>
+
+            <p>in order to solve the above problems, data structures are used. Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.</p>
+
+            <!-- Advantages -->
+            <h3 class="heading" id="Advantages">Advantages of Data Structures</h3>
+
+            <p><strong>Efficiency:</strong> Efficiency of a program depends upon the choice of data structures. For example: suppose, we have some data and we need to perform the search for a perticular record. In that case, if we organize our data in an array, we will have to search sequentially element by element. hence, using array may not be very efficient here. There are better data structures which can make the search process efficient like ordered array, binary search tree or hash tables. </p>
+
+            <p><strong>Reusability:</strong> Data structures are reusable, i.e. once we have implemented a particular data structure, we can use it at any other place. Implementation of data structures can be compiled into libraries which can be used by different clients. </p>
+
+            <p><strong>Abstraction:</strong> Data structure is specified by the ADT which provides a level of abstraction. The client program uses the data structure through interface only, without getting into the implementation details. </p>
+
+            <!-- Classification -->
+            <h3 class="heading" id="Classification">Data Structure Classification</h3>
+
+            <img src="https://static.javatpoint.com/ds/images/ds-introduction.png" alt="DS Introduction" width="100%" />
+            <p><strong>Linear Data Structures:</strong> A data structure is called linear if all of its elements are arranged in the linear order. In linear data structures, the elements are stored in non-hierarchical way where each element has the successors and predecessors except the first and last element.</p>
+
+            <p>Types of Linear Data Structures are given below:</p>
+            <p><strong>Arrays:</strong> An array is a collection of similar type of data items and each data item is called an element of the array. The data type of the element may be any valid data type like char, int, float or double.</p>
+            
+
+            <p><strong>Linked List:</strong> Linked list is a linear data structure which is used to maintain a list in the memory. It can be seen as the collection of nodes stored at non-contiguous memory locations. Each node of the list contains a pointer to its adjacent node. </p>
+
+            <p><strong>Stack:</strong> Stack is a linear list in which insertion and deletions are allowed only at one end, called <strong>top</strong>.</p>
+
+            <p>A stack is an abstract data type (ADT), can be implemented in most of the programming languages. It is named as stack because it behaves like a real-world stack, for example: - piles of plates or deck of cards etc.</p>
+
+            <p><strong>Queue:</strong> Queue is a linear list in which elements can be inserted only at one end called <strong>rear</strong> and deleted only at the other end called <strong>front</strong>.</p>
+
+            <p>It is an abstract data structure, similar to stack. Queue is opened at both end therefore it follows First-In-First-Out (FIFO) methodology for storing the data items. </p>
+
+            <p><strong>Non Linear Data Structures:</strong> This data structure does not form a sequence i.e. each item or element is connected with two or more other items in a non-linear arrangement. The data elements are not arranged in sequential structure.</p>
+
+            <p>Types of Non Linear Data Structures are given below:</p>
+
+            <p><strong>Trees:</strong> Trees are multilevel data structures with a hierarchical relationship among its elements known as nodes. The bottommost nodes in the herierchy are called <strong>leaf node</strong> while the topmost node is called <strong>root node</strong>. Each node contains pointers to point adjacent nodes. </p>
+
+            <p><strong>Graphs:</strong> Graphs can be defined as the pictorial representation of the set of elements (represented by vertices) connected by the links known as edges. A graph is different from tree in the sense that a graph can have cycle while the tree can not have the one. </p>
+
+            <!-- Operations -->
+            <h3 class="heading" id="Operations">Operations on data structure</h3>
+
+            <p>1) <strong>Traversing:</strong> Every data structure contains the set of data elements. Traversing the data structure means visiting each element of the data structure in order to perform some specific operation like searching or sorting. </p>
+
+            <p><strong>Example:</strong> If we need to calculate the average of the marks obtained by a student in 6 different subject, we need to traverse the complete array of marks and calculate the total sum, then we will devide that sum by the number of subjects i.e. 6, in order to find the average.</p>
+
+            <p>2) <strong>Insertion:</strong> Insertion can be defined as the process of adding the elements to the data structure at any location.</p>
+
+            <p>If the size of data structure is <strong>n</strong> then we can only insert <strong>n-1</strong> data elements into it. </p>
+
+            <p>3) <strong>Deletion:</strong>The process of removing an element from the data structure is called Deletion. We can delete an element from the data structure at any random location. </p>
+
+            <p>4) <strong>Searching:</strong> The process of finding the location of an element within the data structure is called Searching. There are two algorithms to perform searching, Linear Search and Binary Search. We will discuss each one of them later in this tutorial.</p>
+
+            <p>5) <strong>Sorting:</strong> The process of arranging the data structure in a specific order is known as Sorting. There are many algorithms that can be used to perform sorting, for example, insertion sort, selection sort, bubble sort, etc.</p>
+
+            <p>6) <strong>Merging:</strong> When two lists List A and List B of size M and N respectively, of similar type of elements, clubbed or joined to produce the third list, List C of size (M+N), then this process is called merging</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>
